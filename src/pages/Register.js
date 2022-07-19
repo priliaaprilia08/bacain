@@ -26,7 +26,7 @@ const Register = () => {
     e.preventDefault();
     console.log(value);
     try {
-      const url = "http://localhost:4000/api/users";
+      const url = "https://bacain.herokuapp.com/api/users";
       const { value: res } = await axios.post(url, value);
       navigate("/");
       console.log(res.message);
