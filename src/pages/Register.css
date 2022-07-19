@@ -1,0 +1,107 @@
+.regis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(30, 16, 138, 0.7),
+        rgba(228, 124, 6, 0.3)
+      ),
+      url(../Img/backall.jpeg);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+/* .regis-form{
+  height: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}  */
+
+
+  
+.regis-right{
+    width: 25%;
+    height: 550px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: 20px;
+    margin-top: 5%;
+    margin-top: 0px; 
+   
+}
+.username{
+  margin-top: 5%;
+}
+
+.email-regis{
+  margin-top: 5%;
+}
+
+.password-regis{
+  margin-top: 5%;
+}
+
+.institusi-regis{
+  margin-top: 5%;
+}
+
+.jenjang-regis{
+  margin-top: 5%;
+  box-sizing: 20%;
+}
+
+.regis-left img{
+    height: 25%;
+    width: 407px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-sizing: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+form{
+      background-color: white;
+      padding: 50px 70px;
+      /* border-radius: 20px; */
+}
+  
+.regis-form{
+      color: #FF9900;
+      text-align: center;
+}
+  
+.form .button{
+      width: 100%;
+      height: 50px;
+      padding: 0px;
+      border: none;
+      background-color: #FF9900;
+      color: white;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+}
+
+@media screen and (min-width: 270px)  {
+  .regis-right img{
+    display: initial;
+  }
+}
+
+@media screen and (man-width: 860px)  {
+  .regis-left img{
+    display: initial;
+  }
+}

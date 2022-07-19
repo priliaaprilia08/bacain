@@ -1,0 +1,126 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.slider-back{
+    width: 97%;
+    background: linear-gradient(
+        rgba(30, 16, 138, 0.7),
+        rgba(228, 124, 6, 0.3)
+      ),
+      url(../Img/backall.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide, .slide img{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.header{
+    /* margin: 30px auto; */
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 50px;
+    color: #FF9900;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: Oswald;
+}
+
+.slide, .slide img{
+    width: 100%;
+    height: 450px;
+}
+
+.slide{
+    /* opacity: .5; */
+    transform: scale(.7);
+    transition: .5s;
+    filter: blur(5px);
+}
+
+.slide-active{
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.arrow{
+    font-size: 30px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+    display: flex;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    z-index: 100%;
+    cursor: pointer;
+    
+}
+
+.arrow-right{
+    right: 20px;
+    
+}
+.arrow-left{
+    left: 20px;
+}
+/* .slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/Img/backrek.png);
+    background-position: relative;
+}
+
+.image {
+    width: 50vh;
+    height: 450px;
+    border-radius: 15px;
+}
+  
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 100pt;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 10;
+    cursor: center;
+    user-select: none;
+}
+  
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 100pt;
+    font-size: 3rem;
+    color: #fff;
+    z-index: 10;
+    cursor: center;
+    user-select: none;
+}
+  
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+  
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+ */

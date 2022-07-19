@@ -1,0 +1,48 @@
+
+.compp{
+  height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(
+      rgba(30, 16, 138, 0.7),
+      rgba(228, 124, 6, 0.3)
+    ),
+    url(../Img/backall.jpeg);
+  background-size: cover;
+  gap: 15px;
+  transition: all 0.5s;
+  background-position: center;
+
+}
+
+.judul {
+  font-size: 50px;
+  font-weight: 50px;
+  color: #FF9900;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  font-family: Oswald;
+  
+}
+
+.data-left{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  
+}
+
+.data-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: 0px;
+  padding: 0px;
+  margin-top: 0px;
+}
