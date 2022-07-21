@@ -261,9 +261,9 @@ const Profile = ({ setLoading }) => {
     <div className="wrapper-profil">
       <div className="content-profil">
         <div className="content-inside-judul">
-          <div className="judul">
-            <judul>PROFILE SAYA</judul>
-          </div>
+          {/* <div className="judul"> */}
+            <h2 className="header">PROFILE SAYA</h2>
+          {/* </div> */}
           {/* <div className="button-logout">
             <Link to={"/"}>
               <akeluar>Keluar</akeluar>
